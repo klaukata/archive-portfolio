@@ -17,7 +17,7 @@ body {
 .dark-green {
     color: #9DA4AC;
 }
-.gray {
+.gray, nav>a {
     color: #8F7E7C;
 }
 .orange {
@@ -26,6 +26,10 @@ body {
 .yellow {
     color: #DACB0C;
 }
-.green {
+a {
+    text-decoration: none;
     color: #7BF1A8;
+}
+.underline {
+    text-decoration: underline;
 }
