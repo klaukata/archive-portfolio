@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: #1e1e24;
+}
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #DECBC9; 
+}
+.violet {
+    color: #ABA2E6;
+}
+.red {
+    color: #C36761;
+}
+.dark-green {
+    color: #9DA4AC;
+}
+.gray {
+    color: #8F7E7C;
+}
+.orange {
+    color: #BA5514;
+}
+.yellow {
+    color: #DACB0C;
+}
+.green {
+    color: #7BF1A8;
+}
