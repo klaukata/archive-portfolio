@@ -5,28 +5,17 @@ html {
     background-color: #1e1e24;
 }
 body {
-    margin: 0.5em;
+    margin: 0.5em 0.8em;
     font-family: 'IBM Plex Mono', monospace;
     color: #DECBC9; 
 }
-.violet {
-    color: #ABA2E6;
-}
-.red {
-    color: #C36761;
-}
-.dark-green {
-    color: #9DA4AC;
-}
-.gray, footer>a {
-    color: #8F7E7C;
-}
-.orange {
-    color: #BA5514;
-}
-.yellow {
-    color: #DACB0C;
-}
+.violet { color: #ABA2E6;}
+.red { color: #C36761;}
+.dark-green { color: #9DA4AC;}
+.gray, footer>a { color: #8F7E7C; }
+.orange { color: #BA5514;}
+.yellow { color: #DACB0C;}
+
 a {
     text-decoration: none;
     color: #7BF1A8;
@@ -92,8 +81,8 @@ img {
     margin-top: 0.2em;
 }
 section.skills > ul {
-    margin-left: 1.5em;
     line-height: 1.2em;
+    padding-left: 20px;
 }
 
 /* about section */
@@ -103,7 +92,7 @@ footer {
     text-align: center;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 400px) {
     ul#skills-ul {
         display: flex;
         justify-content: space-between;
@@ -111,8 +100,23 @@ footer {
     }
     li#bottom-li {
         margin-top: 0;
+        margin-left: 20px;
     }
     body {
-        padding: 1em 1.5em;
+        padding: 0.5em 1em;
+    }
+}
+@media (min-width: 600px) {
+    nav > div {
+        flex-direction: row;
+        gap: 1.5em;
+    }
+    footer {
+        margin-top: 1.5em;
+    }
+}
+@media (min-width: 700px) {
+    body {
+        padding: 0.5em 2em;
     }
 }
