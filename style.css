@@ -35,7 +35,7 @@ a {
     text-decoration: underline;
 }
 p {
-    line-height: 1.2em;
+    line-height: 1.3em;
     margin-bottom: 0.7em;
 }
 
@@ -44,6 +44,9 @@ p {
 nav {
     display: flex;
     justify-content: space-between;
+}
+nav > ul > li {
+    font-size: 0.9em;
 }
 header#berry {
     font-size: 1.5em;
@@ -76,7 +79,13 @@ h2 {
     font-size: 1.4em;
     margin: 1em 0 0.5em;
 }
+img {
+    margin-top: 0.2em;
+}
 section.skills > ul {
     margin-left: 1.5em;
     line-height: 1.2em;
 }
+
+/* about section */
+
