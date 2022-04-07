@@ -5,7 +5,7 @@ html {
     background-color: #1e1e24;
 }
 body {
-    padding: 0.5em;
+    margin: 0.5em;
     font-family: 'IBM Plex Mono', monospace;
     color: #DECBC9; 
 }
@@ -45,14 +45,20 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-nav > ul > li {
+nav > div {
     font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
 }
+
 header#berry {
     font-size: 1.5em;
 }
-ul#right {
-    text-align: end;
+nav > div > a {
+    color: #DECBC9;
+}
+div#right-div {
+    text-align: right;
 }
 
 /* main */
@@ -77,7 +83,10 @@ main > p {
 
 h2 {
     font-size: 1.4em;
-    margin: 1em 0 0.5em;
+    margin: 1.5em 0 0.5em;
+}
+li#bottom-li {
+    margin-top: 1em;
 }
 img {
     margin-top: 0.2em;
@@ -89,3 +98,21 @@ section.skills > ul {
 
 /* about section */
 
+footer {
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+@media (min-width: 450px) {
+    ul#skills-ul {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+    }
+    li#bottom-li {
+        margin-top: 0;
+    }
+    body {
+        padding: 1em 1.5em;
+    }
+}
