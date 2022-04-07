@@ -5,6 +5,7 @@ html {
     background-color: #1e1e24;
 }
 body {
+    padding: 0.5em;
     font-family: 'IBM Plex Mono', monospace;
     color: #DECBC9; 
 }
@@ -17,7 +18,7 @@ body {
 .dark-green {
     color: #9DA4AC;
 }
-.gray, nav>a {
+.gray, footer>a {
     color: #8F7E7C;
 }
 .orange {
@@ -32,4 +33,50 @@ a {
 }
 .underline {
     text-decoration: underline;
+}
+p {
+    line-height: 1.2em;
+    margin-bottom: 0.7em;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+header#berry {
+    font-size: 1.5em;
+}
+ul#right {
+    text-align: end;
+}
+
+/* main */
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1#main-h1 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+main > p {
+    text-align: center;
+    line-height: 1.2em;
+}
+
+/* skills section */
+
+h2 {
+    font-size: 1.4em;
+    margin: 1em 0 0.5em;
+}
+section.skills > ul {
+    margin-left: 1.5em;
+    line-height: 1.2em;
 }
