@@ -10,21 +10,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <title>Klaudia Borowy</title>
 </head>
 <body>
     <nav>
-        <ul>
-            <li>skills</li>
-            <li>about me</li>
-        </ul>
+        <div>
+            <a href="">skills</a>
+            <a href="" id="a-about">about me</a>
+        </div>
         <header id="berry">berry</header>
-        <ul id="right">
-            <li>portfolio</li>
-            <li>contact me</li>
-        </ul>
+        <div id="right-div">
+            <a href="" id="a-portfolio">portfolio</a>
+            <a href="">contact me</a>
+        </div>
     </nav>
     <main>
         <h1 id="main-h1">hello, world! &#128640</h1>
@@ -33,12 +32,14 @@
     <section class="skills">
         <h2>my skills</h2>
         <p>here are my most frequently used:</p>
-        <ul>
-            <li>languages & tools</li>
-            <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" alt="">
-            <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" alt="">
-            <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=Git&logoColor=white" alt="">
-            <li>frameworks & libraries</li>
+        <ul id="skills-ul">
+            <div>
+                <li id="top-li">languages & tools</li>
+                    <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=HTML5&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=CSS3&logoColor=white" alt="">
+                    <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=Git&logoColor=white" alt="">
+            </div>
+            <li id="bottom-li">frameworks & libraries</li>
         </ul>
     </section>
     <section class="about-me">
@@ -55,12 +56,12 @@
         <p>i build javascript <span class="yellow">documentation page</span> with html and css<br><span class="orange">>>> VIEW PROJECT</span></p>
         <p>i build a lading page for <span class="yellow">3d image library</span> with html, css and javascript, which was definitely the hardest and the most time consuming part<br><span class="orange">>>> VIEW PROJECT</span></p>
         <p>i build a <span class="yellow">sample lading page</span> based on <a href="" class="red">the odin project</a> layout with pure html and css<br><span class="orange">>>> VIEW PROJECT</span></p>
-        <p>i've built a few other cool stuffs too, checkout <a href="" class="underline">my github</a></p>
+        <p>i've built a few other cool stuffs too, checkout <a href="https://github.com/kathbo" class="underline">my github</a></p>
     </section>
     <section class="contact">
         <h2>contact me</h2>
-        <p>you can email me at <a href="">kathborowy@gmail.com</a> or dm me on <a href="" class="underline">instagram</a></p>
-        <footer><a href="">twitter</a>|<a href="">github</a>|<a href="">linkedin</a></footer>
+        <p>you can email me at <a href="mailto:kathborowy@gmail.com">kathborowy@gmail.com</a> or dm me on <a href="https://twitter.com/kathboro" class="underline">twitter</a></p>
+        <footer><a href="https://twitter.com/kathboro">instagram </a>|<a href="https://github.com/kathbo"> github </a>|<a href=""> linkedin</a></footer>
     </section>
 </body>
 </html>
