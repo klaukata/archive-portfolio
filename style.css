@@ -109,12 +109,16 @@ footer {
     }
 }
 @media (min-width: 600px) {
+    nav {
+        justify-content: center;
+        align-items: center;
+    }
     nav > div {
         flex-direction: row;
         gap: 1.5em;
     }
-    a#a-about { margin-right: 2em;}
-    a#a-portfolio { margin-left: 2em;}
+    a#a-about { margin-right: 2.5em;}
+    a#a-portfolio { margin-left: 2.5em;}
     h1#main-h1 {
         font-size: 2.2em;
     }
@@ -127,15 +131,16 @@ footer {
         margin: 1em 3em;
     }
 }
+@media (min-width: 800px) {
+    body {
+        margin: 1em 6em;
+    }
+}
 @media (min-width: 1000px) {
     body {
-        margin: 1.5em 10em;
-    }
-    nav {
-        justify-content: center;
+        margin: 1.5em 15em;
     }
     nav > div {
-        align-items: center;
         font-size: 1em;
     }
     header#berry {
@@ -144,12 +149,9 @@ footer {
     h1#main-h1 {
         font-size: 2.6em;
     }
-    ul#skills-ul {
-        justify-content: center;
-        gap: 6em;
-    }
+    
 }
-@media (min-width: 1400px) {
+@media (min-width: 1300px) {
     body {
         margin: 1.5em 23em;
     }
