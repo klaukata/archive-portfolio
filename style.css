@@ -61,7 +61,8 @@ main {
 }
 h1#main-h1 {
     font-size: 1.8em;
-    margin-bottom: 0.5em;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 main > p {
     text-align: center;
@@ -72,6 +73,7 @@ main > p {
 
 h2 {
     font-size: 1.4em;
+    font-weight: 400;
     margin: 1.5em 0 0.5em;
 }
 li#bottom-li {
@@ -111,6 +113,11 @@ footer {
         flex-direction: row;
         gap: 1.5em;
     }
+    a#a-about { margin-right: 2em;}
+    a#a-portfolio { margin-left: 2em;}
+    h1#main-h1 {
+        font-size: 2.2em;
+    }
     footer {
         margin-top: 1.5em;
     }
@@ -134,14 +141,18 @@ footer {
     header#berry {
         font-size: 1.8em;
     }
-    a#a-about { margin-right: 2em;}
-    a#a-portfolio { margin-left: 2em;}
     h1#main-h1 {
-        font-size: 2.5em;
-        font-weight: 400;
+        font-size: 2.6em;
     }
     ul#skills-ul {
         justify-content: center;
         gap: 6em;
     }
+}
+@media (min-width: 1400px) {
+    body {
+        margin: 1.5em 23em;
+    }
+    
+    
 }
