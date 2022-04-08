@@ -87,6 +87,11 @@ section.skills > ul {
     padding-left: 20px;
 }
 
+/* portfolio section */
+
+p.portfolio-description {
+    margin-bottom: 0;
+}
 /* about section */
 
 footer {
