@@ -39,12 +39,15 @@ nav > div {
     display: flex;
     flex-direction: column;
 }
-
 header#berry {
     font-size: 1.5em;
 }
-nav > div > a {
+a.nav-a {
     color: #DECBC9;
+}
+a.nav-a {
+    color: #efe3e1;
+    transition: linear 1s;
 }
 div#right-div {
     text-align: right;
@@ -79,6 +82,9 @@ h2 {
 li#bottom-li {
     margin-top: 1em;
 }
+li#top-li ,li#bottom-li {
+    margin-bottom: 0.1em;
+}
 img {
     margin-top: 0.2em;
 }
@@ -92,6 +98,7 @@ section.skills > ul {
 p.portfolio-description {
     margin-bottom: 0;
 }
+
 /* about section */
 
 footer {
