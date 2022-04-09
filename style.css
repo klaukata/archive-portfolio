@@ -45,9 +45,9 @@ header#berry {
 a.nav-a {
     color: #DECBC9;
 }
-a.nav-a {
-    color: #efe3e1;
-    transition: linear 1s;
+a.nav-a:hover {
+    color: #f5eceb;
+    transition: linear 0.5s;
 }
 div#right-div {
     text-align: right;
@@ -98,12 +98,27 @@ section.skills > ul {
 p.portfolio-description {
     margin-bottom: 0;
 }
+a.red:hover {
+    color: #f76f65;
+    transition: linear 0.5s;    
+}
+a.orange:hover {
+    color: #ff6200;
+    transition: linear 0.5s;
+}
 
 /* about section */
-
+a:hover {
+    color: #29ee75;
+    transition: linear 0.5s;
+}
 footer {
     margin-top: 0.5em;
     text-align: center;
+}
+footer > a:hover {
+    color: #a89a98;
+    transition: linear 0.5s;    
 }
 
 @media (min-width: 400px) {
