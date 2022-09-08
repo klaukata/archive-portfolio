@@ -64,7 +64,7 @@ div#right-div {
 /* main */
 
 main {
-    height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
