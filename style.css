@@ -32,7 +32,8 @@ p {
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
     left: 50%;
     top: 5%;
@@ -121,7 +122,7 @@ a:hover {
     transition: linear 0.5s;
 }
 footer {
-    margin-top: 0.5em;
+    margin-top: 3em;
     text-align: center;
 }
 footer > p > a:hover {
@@ -156,9 +157,6 @@ footer > p > a:hover {
     a#a-portfolio { margin-left: 2.5em;}
     h1#main-h1 {
         font-size: 2.2em;
-    }
-    footer {
-        margin-top: 1.5em;
     }
 }
 @media (min-width: 700px) {
