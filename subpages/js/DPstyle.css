@@ -1,0 +1,56 @@
+:root {
+    --violet: #ABA2E6;
+    --red: #C36761;
+    --dark-green: #9DA4AC;
+    --gray: #8F7E7C;
+    --orange: #BA5514;
+    --yellow: #DACB0C;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: #1e1e24;
+}
+body {
+    margin: 2em 0.8em 0.5em;
+    font-family: 'IBM Plex Mono', monospace;
+    color: #DECBC9; 
+}
+.links {
+    display: grid;
+    gap: 0.5em
+}
+.links > div {
+    max-width: 30em;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    align-items: center;
+    justify-items: start;
+}
+.links > div > * {
+    margin: 0
+}
+
+#go-home {
+    color: var(--dark-green);
+    text-decoration: none;
+}
+.p-link {
+    color: var(--gray)
+}
+#p-stack {
+    color: var(--orange)
+}
+a {
+    color: #7BF1A8;
+    text-decoration: underline;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 1.5em 0 2em;
+}
+
+
