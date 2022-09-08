@@ -13,13 +13,14 @@ html {
     background-color: #1e1e24;
 }
 body {
-    margin: 2em 0.8em 0.5em;
+    margin: 2em 0.8em;
     font-family: 'IBM Plex Mono', monospace;
     color: #DECBC9; 
 }
 .links {
     display: grid;
-    gap: 0.5em
+    gap: 0.3em;
+    margin: 2em 0;
 }
 .links > div {
     max-width: 30em;
@@ -53,4 +54,22 @@ img {
     margin: 1.5em 0 2em;
 }
 
+@media (min-width: 425px) {
+    body {
+        max-width: 30em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media (min-width: 700px) {
+    body {
+        max-width: 25em;
+    }
+}
+@media (min-width: 1000px) {
+    body {
+        max-width: 35em;
+    }
+}
 
