@@ -51,6 +51,12 @@
             <li>Squares have a fixed size</li>
                 <p>At first, I defined each square's width and height by px x px. After I applied the Grid layout, I started wondering how to prevent having to set a different px value for every size. I switched to already known relative units: vh/vw, em, rem, %. To no avail. </p>
                 <p>A solution to this problem came instantaneously after learning CSS Grid's fr unit.</p>
+            <li>Two event listeners added to the same element</li>
+                <p>Since I wanted squares to change color during mouse press and hover simultaneously, I thought I could nest one event listener inside another. Well, turns out you can't. At least I couldn't make it work.</p>
+                <p>I needed to find a way to omit one of the listeners, so I declared mousePosition variable:</p>
+                <img style="width: 80%" src="img/challange-mousePosition.png" alt="">
+                <p>And used in an if statement inside of the 'mouseover' event lister:</p>
+                <img  src="img/challange-mousePosition-nested.png" alt="">
         </ol>
     </div>
 </body>
