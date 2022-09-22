@@ -32,7 +32,6 @@ body {
 .links > div > * {
     margin: 0
 }
-
 #go-home {
     color: var(--dark-green);
     text-decoration: none;
@@ -43,15 +42,8 @@ body {
 #p-stack {
     color: var(--orange)
 }
-a {
-    color: #7BF1A8;
-    text-decoration: underline;
-}
-#top-link {
-    color: var(--violet)
-}
-span {
-    color: var(--yellow)
+div.design {
+    margin: 8em 0;
 }
 img {
     display: block;
