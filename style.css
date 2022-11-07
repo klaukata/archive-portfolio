@@ -134,11 +134,9 @@ footer > p > a:hover {
     ul#skills-ul {
         display: flex;
         justify-content: space-between;
-        margin: auto;
     }
     li#bottom-li {
         margin-top: 0;
-        margin-left: 20px;
     }
     body {
         margin: 0.5em 1.5em;
