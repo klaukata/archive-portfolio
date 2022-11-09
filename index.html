@@ -7,14 +7,16 @@
     <meta name="description" content="Who am I? Check out for yourself">
     <meta name="authors" content="Klaudia Borowy">
     <meta name="keywords" content="portfolio, personal website, frontend developer">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/berry-icon.png">
     <title>Frontend Developer - Katherine Borowy</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="icon" href="img/berry-icon.png">
 </head>
-<body>
+<body data-scroll-container>
     <nav id="navbar">
         <div>
             <a href="#skills-section" class="nav-a">skills</a>
@@ -26,11 +28,11 @@
             <a href="#contact-section" class="nav-a">contact me</a>
         </div>
     </nav>
-    <main id="welcome-section">
+    <main id="welcome-section" data-scroll-section>
         <h1 id="main-h1">hello, world! &#128640</h1>
         <p>my name is <span class="violet">klaudia borowy</span><br><span class="gray">and</span><br>i'm an aspiring <span class="red">frontend developer</span></p>
     </main>
-    <section class="skills" id="skills-section">
+    <section class="skills" id="skills-section" data-scroll-section>
         <h2>my skills</h2>
         <p>here are my most frequently used:</p>
         <ul id="skills-ul">
@@ -57,7 +59,7 @@
         </ul>
         
     </section>
-    <section class="about-me" id="about-section">
+    <section class="about-me" id="about-section" data-scroll-section>
         <h2>about me</h2>
         <p>on the internet, i go by <span class="violet">kath</span><span class="gray"> [katherine is my second name]</span> or <span class="violet">berry </span><span class="gray">[my childhood nickname]</span></p>
         <p>my love of beautiful websites made me curious about how they were made. after lots of research, i discovered web development which led to my interest in frontend development. since then, i've been honing my skills and <span class="red">building projects</span> to apply what i've learned.</p>
@@ -66,8 +68,10 @@
         <p>&#127748 when i’m not coding my next project, i like to spend time reading books, exploring the world, or playing ck3</p>
         <p>&#127775 i also have an interest in ux/ui design</p>
     </section>
-    <section class="portfolio" id="projects">
-        <h2>portfolio</h2>
+
+
+    <section class="portfolio" id="projects" data-scroll-section>
+        <h2 id="js-target">portfolio</h2>
         <div>
             <p class="portfolio-description project-tile">i build a <span class="yellow">weather app</span> whilst learning how to use APIs. Enter whichever city you'd like and see if you need to take an umbrella when you go outside!</p>
             <a href="subpages/weather-app/waIndex.html" class="orange" target="_blank"> >>> VIEW PROJECT</a>
@@ -98,12 +102,13 @@
         </div>
         <p>i've built a few other cool stuff too, check out <a href="https://github.com/kathbo" class="underline">my github</a></p>
     </section>
-    <section class="contact" id="contact-section">
+    <section class="contact" id="contact-section" data-scroll-section>
         <h2>contact me</h2>
         <p>you can email me at <a href="mailto:kathborowy@gmail.com">kathborowy@gmail.com</a> or dm me on <a href="https://twitter.com/kathboro" class="underline">twitter</a></p>
-        <footer id="profile-link">
-            <p><a href="https://www.instagram.com/katherineborowy/" target="_blank">instagram </a>|<a href="https://github.com/kathbo" target="_blank"> github </a>|<a href="https://www.linkedin.com/in/katherine-borowy-016b23236/?locale=en_US" target="_blank"> linkedin</a></p>
-        </footer>
     </section>
+    <footer id="profile-link"  data-scroll-section>
+        <p><a href="https://www.instagram.com/katherineborowy/" target="_blank">instagram </a>|<a href="https://github.com/kathbo" target="_blank"> github </a>|<a href="https://www.linkedin.com/in/katherine-borowy-016b23236/?locale=en_US" target="_blank"> linkedin</a></p>
+    </footer>
+    <script src="loco.js" type="module" defer></script>
 </body>
 </html>
